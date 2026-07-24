@@ -5,8 +5,8 @@ uri: "https://www.cm-braganca.pt"   # Entre as aspas escreve o domínio do websi
 a11y_statement: "https://www.cm-braganca.pt/ficha-tecnica/declaracao-de-acessibilidade-e-usabilidade" # Entre as aspas escreve o URL da Declaração de Acessibilidade do website
 owner: "Câmara Municipal de Bragança"         # Entre as aspas escrever o nome do owner do website
 seal: "Ouro"                          # Entre as aspas escreve Bronze, Prata ou Ouro
-validity: "" # Entre as aspas escreve data de início e data de fim no formato 31/12/1999 a 31/12/2000
-status: "A aguardar correções da entidade" # Entre as aspas escreve uma das seguintes opções: "Auditoria a decorrer", "A aguardar correções da entidade", "Concluído"
+validity: "24/07/2026 a 24/07/2027" # Entre as aspas escreve data de início e data de fim no formato 31/12/1999 a 31/12/2000
+status: "Concluído" # Entre as aspas escreve uma das seguintes opções: "Auditoria a decorrer", "A aguardar correções da entidade", "Concluído"
 ---
 
 # {{ page.website }}
@@ -23,6 +23,7 @@ Consulte aqui a última atualização: [Relatório do {{ page.website }}](report
 <details>
   <summary>Histórico de atualizações</summary>
   <ul aria-label="lista de relatórios já efetuados"> 
+    <li><a href="24072026_report.html">(24/07/2026). Relatório do {{ page.website }}</a></li>
     <li><a href="01072026_report.html">(01/07/2026). Relatório do {{ page.website }}</a></li>
     <li><a href="12062026_report.html">(12/06/2026). Relatório do {{ page.website }}</a></li>
     <li><a href="ddmmaaaa_report.html">(dd/mm/aaaa). Relatório do {{ page.website }}</a></li>
